@@ -19,10 +19,10 @@ export function MobileSidebar({ className }: SidebarProps) {
         <SheetTrigger asChild>
           <MenuIcon />
         </SheetTrigger>
-        <SheetContent side="left" className="!px-0">
+        <SheetContent side="left" className="!px-0 sm:w-[300px]">
           <div className="space-y-4 py-4">
             <div className="px-3 py-2">
-              <h2 className="mb-2 px-4 text-lg font-semibold tracking-tight">
+              <h2 className="m-4 px-0 text-lg font-semibold tracking-tight">
                 Overview
               </h2>
               <div className="space-y-1">
